@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HQJ-HC-MGX">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -16,13 +17,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="hfM-Vi-3TH">
-                                <rect key="frame" x="138" y="341" width="138" height="139"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="hfM-Vi-3TH">
+                                <rect key="frame" x="120" y="244" width="174" height="418"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hyN-by-s7o"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hfM-Vi-3TH" firstAttribute="top" secondItem="hyN-by-s7o" secondAttribute="top" constant="200" id="gQJ-oX-Fy2"/>
+                            <constraint firstItem="hyN-by-s7o" firstAttribute="trailing" secondItem="hfM-Vi-3TH" secondAttribute="trailing" constant="120" id="o3r-HB-c2E"/>
+                            <constraint firstItem="hfM-Vi-3TH" firstAttribute="leading" secondItem="hyN-by-s7o" secondAttribute="leading" constant="120" id="v6f-jW-XG6"/>
+                            <constraint firstItem="hyN-by-s7o" firstAttribute="bottom" secondItem="hfM-Vi-3TH" secondAttribute="bottom" constant="200" id="wsH-aG-868"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e2y-rD-NlB" userLabel="First Responder" sceneMemberID="firstResponder"/>
