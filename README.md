@@ -1,3 +1,5 @@
+# Flix
+
 ## Flix Part 2
 
 ### User Stories
@@ -12,8 +14,6 @@
 
 ### App Walkthrough GIF
 <img src="http://g.recordit.co/o29SeRU5XO.gif" width=250><br>
-
-# Flix
 
 
 ## Flix Part 1
